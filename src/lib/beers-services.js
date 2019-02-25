@@ -23,6 +23,8 @@ class Api {
     return this.api.get('/random')
     .then(({data}) => data);
   }
+
+  
 }
 
 const api = new Api();

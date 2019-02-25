@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import ListBeers from './pages/ListBeers';
 import RandomBeers from './pages/RandomBeers';
 import SingleBeer from './pages/SingleBeer';
+import New from './pages/New';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path='/all' component={ListBeers} />
           <Route exact path='/single/:id' component={SingleBeer} />
           <Route exact path='/random' component={RandomBeers} />
+          <Route exact path='/new' component={New} />
         </Switch>
       </Router>
     );
